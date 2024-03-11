@@ -1,0 +1,537 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.first-container{
+    height: 400px;
+    width: 1100px;
+    color: white;
+
+}
+h2{
+    margin-top: 1.3rem;
+    text-shadow: 4px 0 4px red;
+}
+.container-1{
+    height: 350px;
+    width: 1100px;
+    text-align: center;
+    color: white;
+    margin-top: 5rem;
+   
+
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    margin-top: 30px;
+   
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #272e47;
+    height: 50px;
+    width: 90.5%;
+    color: antiquewhite;
+    list-style-type: none;
+    position: fixed;
+    z-index: 1;
+
+}
+li:hover{
+    background-color: aquamarine;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    padding: 5px;
+}
+button{
+    border-radius: 10px;
+    padding: 10px;
+}
+button:hover{
+    background-color: rgb(99, 93, 93);
+    color: white;
+}
+.box-1{
+    height: 265px;
+    width: 250px;
+    border: 2px solid red;
+    text-align:center;
+    display: flex;
+    box-shadow: 0px 1px  10px rgb(126, 149, 240);
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3px;
+    color: white;
+    gap: 5px;
+    
+
+
+}
+.box-2{
+    height: 265px;
+    width: 260px;
+    border: 2px solid red;
+    text-align:center;
+    display: flex;
+    box-shadow: 0px 1px  10px rgb(126, 149, 240);
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    color: white;
+    gap: 10px;
+
+}
+.box-3{
+    height: 265px;
+    width: 260px;
+    border: 2px solid red;
+    text-align:center;
+    display: flex;
+    box-shadow: 0px 1px  10px rgb(126, 149, 240);
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    gap: 10px;
+
+}
+.section-1{
+    height: 80px;
+    width: 80px;
+    box-shadow: 4px 4px 4px rgb(16, 7, 7);
+    padding-top: 19px;
+    border-radius: 10px;
+    background-color: crimson;
+    background-image: url(https://images.meesho.com/images/products/308900951/axjhu_512.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.section-2{
+    height: 80px;
+    width: 80px;
+    box-shadow: 4px 4px 4px rgb(16, 14, 14);
+    padding-top: 19px;
+    border-radius: 10px;
+    background-color: chartreuse;
+    background-image: url(https://i0.wp.com/images.meesho.com/images/products/217006636/jnjkz_512.webp?w=1320&ssl=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-3{
+    height: 80px;
+    width: 80px;
+    padding-top: 19px;
+    box-shadow: 4px 4px 4px rgb(16, 14, 14);
+    border-radius: 10px;
+    background-color: crimson;
+    background-image: url(https://images.meesho.com/images/products/271499528/k4d0h_512.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section1-1{
+    height: 80px;
+    width: 80px;
+    box-shadow: 4px 4px 4px rgb(16, 14, 14);
+    padding-top: 19px;
+    border-radius: 10px;
+    background-color: crimson;
+    background-image: url(https://images.meesho.com/images/products/65478602/noyem_512.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section1-2{
+    height: 80px;
+    width: 80px;
+    box-shadow: 4px 4px 4px rgb(16, 14, 14);
+    padding-top: 19px;
+    margin-right: 170px;
+    position: absolute;
+    margin-top: 90px;
+    border-radius: 10px;
+    background-color: chartreuse;
+    background-image: url(https://images.meesho.com/images/products/193233756/yrgdo_512.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section1-3{
+    height: 80px;
+    width: 80px;
+    box-shadow: 4px 4px 4px rgb(16, 14, 14);
+    padding-top: 19px;
+    border-radius: 10px;
+    background-color: crimson;
+    background-image: url(https://rukminim2.flixcart.com/image/850/1000/xif0q/dress/s/y/u/l-at-georgette-silk-atyantah-original-imagn692pabh9jue.jpeg?q=90&crop=true);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section2-1{
+    height: 80px;
+    width: 80px;
+    box-shadow: 4px 4px 4px rgb(16, 14, 14);
+    padding-top: 19px;
+    border-radius: 10px;
+    background-color: crimson;
+    background-image: url(https://i.pinimg.com/236x/23/fb/c8/23fbc8dc9472de2af16d898a743ed1bd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section2-2{
+    height: 80px;
+    width: 80px;
+    padding-top: 19px;
+    box-shadow: 4px 4px 4px rgb(16, 14, 14);
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 170px;
+    margin-top: 90px;
+    background-color: chartreuse;
+    background-image: url(https://images.meesho.com/images/products/280045127/flkey_512.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section2-3{
+    height: 80px;
+    width: 80px;
+    box-shadow: 4px 4px 4px rgb(16, 14, 14);
+    padding-top: 19px;
+    border-radius: 10px;
+    background-color: crimson;
+    background-image: url(https://bsfashionsurat.com/wp-content/uploads/2023/03/Pakistani-Dresses-Online-Wholesale-2-247x296.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container-2{
+    text-align: center;
+    color: white;
+}
+.box2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+.section3-1{
+    height: 80px;
+    width: 80px;
+    box-shadow: 4px 4px 4px rgb(16, 14, 14);
+    background-image: url(https://5.imimg.com/data5/SELLER/Default/2021/7/QO/PK/AZ/133387121/women-western-dresses.jpg);
+    padding-top: 20px;
+    border-radius: 10px;
+    background-color: crimson;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.section3-2{
+    height: 80px;
+    width: 80px;
+    padding-top: 20px;
+    box-shadow: 4px 4px 4px rgb(16, 14, 14);
+    border-radius: 10px;
+    background-color: chartreuse;
+    background-image: url(https://www.shahifits.in/wp-content/uploads/2023/01/Indo-Western-Dress-for-Female-for-Wedding-scaled.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.section3-3{
+    height: 80px;
+    width: 80px;
+    padding-top: 20px;
+    box-shadow: 4px 4px 4px rgb(16, 14, 14);
+    border-radius: 10px;
+    background-color: crimson;
+    background-image: url(https://img0.junaroad.com/uiproducts/18016956/zoom_0-1632677953.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.section4-1{
+    height: 80px;
+    width: 80px;
+    box-shadow: 4px 4px 4px rgb(16, 14, 14);
+    padding-top: 20px;
+    border-radius: 10px;
+    background-color: crimson;
+    background-image: url(https://dilutee.in/cdn/shop/products/1639564180772_608-1-originnm80prcnt_300x.jpg?v=1639810928);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.section4-2{
+    height: 80px;
+    width: 80px;
+    box-shadow: 4px 4px 4px rgb(16, 14, 14);
+    padding-top: 20px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 5.8rem;
+    margin-left: 3.5rem;
+    background-color: chartreuse;
+    background-image: url(https://cdn.shopify.com/s/files/1/0266/6276/4597/files/300961005GREY_1.jpg?v=1707999403);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.section4-3{
+    height: 80px;
+    width: 80px;
+    box-shadow: 4px 4px 4px rgb(16, 14, 14);
+    padding-top: 20px;
+    border-radius: 10px;
+    margin-top: 5rem;
+    background-color: crimson;
+    background-image: url(https://www.libas.in/cdn/shop/files/green-solid-georgette-dress-libas-1_400x.jpg?v=1705680466);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.section5-1{
+    height: 80px;
+    width: 80px;
+    box-shadow: 4px 4px 4px rgb(16, 14, 14);
+    padding-top: 20px;
+    border-radius: 10px;
+    background-color: crimson;
+    background-image: url(https://cdn0.weddingwire.in/article/4041/original/1280/png/111404-indo-western-outfits-mehendi-gopi-vaid.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.section5-2{
+    height: 80px;
+    box-shadow: 4px 4px 4px rgb(16, 14, 14);
+    width: 80px;
+    padding-top: 20px;
+    border-radius: 10px;
+    position: absolute;
+    margin-right: 10.5rem;
+    margin-top: 5.7rem;
+    background-color: chartreuse;
+    background-image: url(https://cdn.shopify.com/s/files/1/1018/4207/products/RAI6386e_large.jpg?v=1628422705);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.section5-3{
+    height: 80px;
+    width: 80px;
+    box-shadow: 4px 4px 4px rgb(16, 14, 14);
+    padding-top: 20px;
+    border-radius: 10px;
+    background-color: crimson;
+    background-image: url(https://www.alamodelabel.in/cdn/shop/files/1E2CC4EB-0C26-4086-A6E0-48D3FE560C0E_600x.jpg?v=1701970593);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.box-4{
+    height: 400px;
+    width: 250px;
+    border: 2px solid red;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    margin-left: 26.5rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    box-shadow: 0px 1px  10px rgb(126, 149, 240);
+    text-shadow: 0 10px 4px rgb(189, 26, 26);
+}
+.section6-1{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    box-shadow: 4px 4px 4px rgb(16, 14, 14);
+    background-color: chartreuse;
+    top: 54rem;
+    margin-left: 4rem;
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0266/6276/4597/files/300964420DKBEIGE_1.jpg?v=1705581743);
+    color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item1{
+    height: 80px;
+    width: 80px;
+    background-color: crimson;
+    box-shadow: 4px 4px 4px rgb(16, 14, 14);
+    margin-top: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 20px;
+    background-image: url(https://cdn.shopify.com/s/files/1/1018/4207/products/8_2_0565ba9f-4b36-4290-8db3-bb3cfc223ccf_large.jpg?v=1569255081);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container-4{
+    display: flex;
+    flex-direction: column;
+    
+}
+.first-line{
+    display: flex;
+    justify-content: space-between;
+}
+.item1-1{
+    height: 80px;
+    width: 80px;
+    box-shadow: 4px 4px 4px rgb(16, 14, 14);
+    padding-top: 20px;
+    text-align: center;
+    margin-top: 2rem;
+    background-color: crimson;
+    border-radius: 10px;
+    background-image: url(https://img.tatacliq.com/images/i12/437Wx649H/MP000000018877681_437Wx649H_202308230711051.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.second-line{
+    display: flex;
+    justify-content: space-between;
+}
+.third-line{
+    display: flex;
+    justify-content: space-between;
+}
+.item21{
+    height: 80px;
+    width: 80px;
+    box-shadow: 4px 4px 4px rgb(16, 14, 14);
+    padding-top: 20px;
+    text-align: center;
+    margin-top: 2rem;
+    background-color: crimson;
+    background-image: url(https://5.imimg.com/data5/RK/EB/MY-29405224/woman-western-dress-500x500.jpeg);
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item22{
+    height: 80px;
+    width: 80px;
+    padding-top: 20px;
+    box-shadow: 4px 4px 4px rgb(16, 14, 14);
+    text-align: center;
+    margin-top: 2rem;
+    background-color: crimson;
+    background-image: url(https://5.imimg.com/data5/RK/EB/MY-29405224/woman-western-dress-500x500.jpeg);
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fourth-line{
+    display: flex;
+    justify-self: space-between;
+    gap: 5px;
+}
+.space{
+    height: 80px;
+    width: 55rem;
+    padding-top: 20px;
+    box-shadow: 4px 4px 4px rgb(16, 14, 14);
+    text-align: center;
+    margin-top: 2rem;
+    background-color: crimson;
+    border-radius: 10px;
+    background-image: url(https://cdn.slidesharecdn.com/ss_thumbnails/myntrastrategy-150903064343-lva1-app6891-thumbnail.jpg?width=640&height=640&fit=bounds);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+.fifth-line{
+    display: flex;
+    justify-content: space-between;
+}
+.item2-1{
+    height: 80px;
+    width: 80px;
+    box-shadow: 4px 4px 4px rgb(16, 14, 14);
+    padding-top: 20px;
+    text-align: center;
+    background-color:crimson;
+    border-radius: 10px;
+    margin-top: 2rem;
+    background-image: url(https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQqCnR-mb8TXx9gvKSy0vvoU3vcRLhOLswtS3GINc3TqYrWJJRRJYOPc9NlNtnFqArOQHT0m6fkRq9Na4AXzt3DAYJLw7bqWX2_a8lTO0mxdWsROa-gTC8v);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sixth-line{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.item-last{
+    height: 80px;
+    width: 80px;
+    box-shadow: 4px 4px 4px rgb(16, 14, 14);
+    padding-top: 20px;
+    text-align: center;
+    background-color:crimson;
+    border-radius: 10px;
+    margin-top: 2rem;
+    background-image: url(https://www.greatplacetowork.in/great/api//assets/uploads/804/logo/490350880.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer{
+    height: 50px;
+    background-color: #272e47;
+    margin-top: 2rem;
+    box-shadow: 0px 4px 0px rgb(16, 14, 14);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    text-shadow: 0 4px 4px rgb(8, 129, 250);
+}
+.fa-brands{
+    margin-right: 3rem;
+    font-size: 1.5rem;
+}
+.fa-brands:hover{
+    color: rgb(10, 14, 243);
+}
+.gotopbtn{
+    height: 40px;
+    width: 40px;
+    border:2px solid rgb(4, 66, 5) ;
+    border-radius: 10px;
+    background-color: green;
+    position: absolute;
+    margin-left: 69.8rem;
+    color: black;
+}
+.fa-circle-up{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
